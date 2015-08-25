@@ -389,7 +389,7 @@
                         "neo4j": {
                             "image": "tpires/neo4j",
                             "ports": ["7474:7474", "7473:7473"],
-                            "volumes" : ["/tmp:/data"]
+                            "volumes" : ["/datadisk:/var/lib/neo4j/data"]
                         }
                     }
                 }
